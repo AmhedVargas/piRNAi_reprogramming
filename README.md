@@ -24,7 +24,7 @@ We have deposited DNA and RNA libraries under the [GEO](https://www.ncbi.nlm.nih
 We have build a [shiny web app](https://wormbuilder.dev/piRNAi/) to ease the construction of piRNAi fragments. 
 It's code can be found in this repository: https://github.com/AmhedVargas/piRNAi_dev
 
-Originally, the data to produce the app was processed using BLAST search as a proxy to identify thew number of mis-matches between a piRNAi guide and any other part of the genome. How the data was processed can be found here: https://github.com/AmhedVargas/piRNAi-DB
+Originally, the data to produce the app was processed using BLAST search as a proxy to identify the number of mis-matches between a piRNAi guide and any other part of the genome. How the data was processed can be found here: https://github.com/AmhedVargas/piRNAi-DB
 
 However, in the latest version of the piRNAi app we opted to use an exhaustive algorithm based on the calculation of the Hamming distance. Our c++ implementation can be found here: https://github.com/AmhedVargas/CelegansHammingAlignments
 
